@@ -1,0 +1,145 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - grunt-contrib-connect > connect > body-parser > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > body-parser > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > compression > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > compression > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > connect-timeout > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > connect-timeout > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > express-session > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > express-session > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > morgan > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > morgan > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-index > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-index > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-static > send > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-static > send > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:hoek:20180212':
+    - karma-phantomjs-launcher > phantomjs > request > hawk > hoek:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:49:59.856Z'
+  SNYK-JS-LODASH-567746:
+    - karma-phantomjs-launcher > phantomjs > request > form-data > async > lodash:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:mime:20170907':
+    - karma > mime:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-static > send > mime:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-static > send > mime:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:minimatch:20160620':
+    - load-grunt-config > load-grunt-tasks > globule > glob > minimatch:
+        patched: '2021-03-21T20:49:59.856Z'
+    - load-grunt-config > load-grunt-tasks > globule > minimatch:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > glob > minimatch:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:ms:20170412':
+    - grunt-contrib-connect > connect > connect-timeout > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > connect-timeout > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > body-parser > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > body-parser > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > compression > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > compression > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > connect-timeout > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > connect-timeout > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > express-session > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > express-session > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > morgan > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > morgan > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-index > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-index > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-static > send > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-static > send > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-static > send > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-static > send > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > snapdragon > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > braces > snapdragon > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-favicon > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-favicon > ms:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:negotiator:20160616':
+    - grunt-contrib-connect > connect > compression > accepts > negotiator:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > compression > accepts > negotiator:
+        patched: '2021-03-21T20:49:59.856Z'
+    - grunt-contrib-connect > connect > serve-index > accepts > negotiator:
+        patched: '2021-03-21T20:49:59.856Z'
+    - karma > connect > serve-index > accepts > negotiator:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:request:20160119':
+    - karma-phantomjs-launcher > phantomjs > request:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:tough-cookie:20170905':
+    - karma-phantomjs-launcher > phantomjs > request > tough-cookie:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:tunnel-agent:20170305':
+    - karma-phantomjs-launcher > phantomjs > request > tunnel-agent:
+        patched: '2021-03-21T20:49:59.856Z'
+  'npm:ws:20160920':
+    - karma > socket.io > socket.io-client > ws:
+        patched: '2021-03-21T20:49:59.856Z'
